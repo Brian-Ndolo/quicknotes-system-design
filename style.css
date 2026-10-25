@@ -150,3 +150,12 @@ textarea {
     flex-direction: column;
   }
 }
+
+.delete-btn {
+  margin-top: 8px;
+  background: #dc2626;
+}
+
+.delete-btn:hover:not(:disabled) {
+  background: #991b1b;
+}
